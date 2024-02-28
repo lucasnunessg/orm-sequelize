@@ -4,7 +4,7 @@ const UserModel = (sequelize, DataTypes) => {
         email: DataTypes.STRING,
         phoneNum: DataTypes.STRING,
     }, {
-        tableName: 'Userss', // Definindo o nome da tabela
+        tableName: 'Userss', 
     });
 
     return User;
